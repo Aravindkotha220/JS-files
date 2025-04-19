@@ -1,0 +1,471 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: #fff;
+    color:blue ;
+    padding: 40px;
+    justify-content: center;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e40af;
+    color: white;
+    padding:20px;
+    flex-wrap: wrap;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.75rem;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .navbar a:hover {
+    opacity: 0.85;
+  }
+  .navbar-right .light {
+    color: #cbd5e1;
+    font-weight: normal;
+  }
+  .divider {
+    color: #f87171;
+    margin: 0 0.5rem;
+  }
+  .divider1 {
+    color:#cbd5e1;
+    margin: 0 0.5rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    color: white;
+  }
+  
+  .logo .me {
+    color: #9fb5ff;
+    font-weight: normal;
+  }
+  
+  .navbar-left, .navbar-right {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .navbar-right {
+    gap: 0.5rem;
+  }
+  
+  .btn-outline {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .btn-fill {
+    background: white;
+    color: #1e40af;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .note{
+    width: 100%;
+    margin: 0;
+  }
+  .note>p{
+    font-size: 20px;
+    color: #9fb5ff;
+  }
+  .note>p>strong{
+    color: #fff;
+  }
+  h1{
+    font-size: 50px;
+    margin: 0;
+  }
+  .left-section {
+    flex: 1 1 60%;
+    max-width: 1000px;
+  }
+  
+  .left-section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .left-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 970px;
+    height: 470px;
+    border: 2px solid blue; 
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+    padding-top: 20px;
+    font-size: 1rem;
+    resize: none;
+    outline: none;
+    color: #000;
+  }
+  
+  .inspire-btn {
+    background-color: #eef3ff;
+    color: #173bd4;
+    margin-top: 10px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .right-section {
+    flex: 1 1 300px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .option-btn {
+    background-color:blue;
+    color: white;
+    border: 2px solid transparent;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .options>.option-btn:hover{
+    background-color:#fff;
+    color:#173bd4;
+  }
+  
+  .option-btn.selected {
+    background-color:blue;
+    color: #fff;
+    border: 2px solid #173bd4;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .send-btn {
+    margin: 10px;
+    background: linear-gradient(to right, #f76a3c, #caa945, blue);
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  /* past-letters */
+  .past-letters{
+    padding: 35px;
+    font-size: 40px;
+    color:#fff;
+    background-color: #0c1b5a;
+  }
+
+  .past-letterss {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  .letter-preview {
+    width: 100%;
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    padding: 16px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .letter-preview:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    color: #1e40af;
+  }
+  
+  .fm-title {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .fm-letter-preview-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .fm-letter-preview-link:hover {
+    color: #007BFF;
+  }
+  
+  .fm-letter-preview-body a {
+    color: #666;
+    font-size: 0.95em;
+    text-decoration: none;
+  }
+  
+  .fm-letter-preview-body a:hover {
+    text-decoration: underline;
+    color:#173bd4;
+  }
+  
+  /* Blog container */
+  .anime-blog{
+    height: 800px;
+    place-items: center;
+    place-content: center;
+  }
+  .anime-blog>p{
+    font-size: 25px;
+  }
+
+/* Footer Main Container  */
+
+.tag1-items {
+    background-color: #0c1b5a;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .tag1-items img {
+    height: auto;
+  }
+  
+  .footer-main {
+    padding: 40px 20px;
+    background-color:#f0f2f5;
+    color:blue;
+  }
+  
+  /* Logo Section */
+  #footer-div {
+    margin-bottom: 30px;
+  }
+  
+  .fm-navbar-logo img {
+    width: 150px;
+    padding: 10px;
+    border-color: #173bd4;
+
+  }
+  
+  /* Nav Lists */
+  .fm-list1 span,
+  .fm-list2 span {
+    display: inline-block;
+    margin: 8px 12px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .fm-list1 {
+    margin-bottom: 10px;
+  }
+  
+  .fm-list2 {
+    font-size: 0.9em;
+    opacity: 0.9;
+    color: gray;
+  }
+  
+  /* App Store / Play Store Buttons */
+  .fm-images {
+    margin: 30px 0;
+  }
+  
+  .fm-images img {
+    margin: 0 10px;
+  }
+  
+  /* Business & Education Logos */
+  .fm-list-BE {
+    margin: 30px 0;
+  }
+  
+  .fm-list-BE img {
+    margin: 0 10px;
+  }
+  
+  /* Footer Text */
+  .fm-footer-tsp {
+    font-size: 0.85em;
+    opacity: 0.9;
+  }
+  
+  .footer-fm-list span {
+    margin: 0 10px;
+  }
+
+  /* Tablet Devices (768px - 1024px) */
+@media (max-width: 1024px) {
+  .main-wrapper {
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .left-section,
+  .right-section {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+    height: 400px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .navbar-left, .navbar-right {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .right-section {
+    gap: 15px;
+  }
+  .footer-main{
+    place-items: center;
+  }
+
+}
+
+/* Mobile Devices (max-width: 767px) */
+@media (max-width: 767px) {
+  .main-wrapper {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  h1,
+  .left-section h1 {
+    font-size: 2rem;
+  }
+
+  .left-section p {
+    font-size: 1rem;
+  }
+
+  textarea {
+    height: 300px;
+    font-size: 0.95rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .navbar-left, .navbar-right {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .btn-outline,
+  .btn-fill {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .note > p {
+    font-size: 16px;
+  }
+
+  .past-letters {
+    font-size: 28px;
+    padding: 20px;
+  }
+
+  .anime-blog {
+    height: auto;
+    padding: 20px;
+  }
+
+  .anime-blog > p {
+    font-size: 20px;
+  }
+
+  .tag1-items {
+    display: none;
+  }
+
+  .footer-main {
+    padding: 30px 15px;
+  }
+
+  .fm-navbar-logo img {
+    width: 120px;
+  }
+
+  .fm-list1 span,
+  .fm-list2 span,
+  .footer-fm-list span {
+    display: block;
+    margin: 6px 0;
+  }
+
+  .fm-images img,
+  .fm-list-BE img {
+    margin: 10px 0;
+    width: 120px;
+  }
+}

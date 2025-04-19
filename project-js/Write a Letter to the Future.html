@@ -1,92 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Write a Letter to the Futuret</title>
+  <link rel="stylesheet" href="style.css">
+
+
 </head>
+
 <body>
-    
 
-    <div class="main-wrapper">
+  <nav class="navbar">
+    <div class="navbar-left">
+      <span class="logo">future<span class="me">me</span></span>
+      <a href="./Write a Letter to the Future.html "><span class="emoji">✍️</span> Write a Letter to the Future</a>
+      <a href="./Read Public Lettersfrom past.html"><span class="emoji">📦</span> Read Public Letters</a>
+    </div>
 
-        <div class="left-section">
-          <div class="fm-logo">
-            <a class="fm-navbar-logo" href="/">
-              <span class="fm-logo">
-                <img
-                  src="https://prod-assets.futureme.org/assets/logo/logo-reverse@1x-056e77a61325f5f09d494ef19e0f2aab3ab1a50253c361e57169e3bd923053ed.svg">
-              </span>
-            </a>
-            <!-- Top Navigation Bar -->
-      <nav class="navbar">
-        <div class="nav-left">
-          <span class="logo">future<span class="bold">me</span></span>
-          <a href="#">Write a Letter to the Future</a>
-          <a href="#">Read Public Letters</a>
-        </div>
-        <div class="nav-right">
-          <a href="#">Blog</a>
-          <a href="#">Press & Props</a>
-          <a href="#">Sign In</a>
-          <button class="signup-btn">Sign Up</button>
-        </div>
-      </nav>
-          </div>
-          <h1>Write a letter to your future self</h1>
-          <p>
-            <strong>Write.</strong> Pick a receiving date. <strong>Send.</strong> Verify. That’s it 😊 <br />
-            Your letter is <strong>safe</strong> with us – we’ve sent over <strong>20 million letters</strong> in 20 years!
-          </p>
-          <textarea placeholder="Dear Future Me..." id="letterArea"></textarea>
-          <button class="inspire-btn" onclick="inspireText()">💡 Inspire me!</button>
-        </div>
-    
-        <div class="right-section">
-          <div class="input-group">
-            <label>Deliver in</label>
-            <div class="options">
-              <button class="option-btn selected">6 months</button>
-              <button class="option-btn">1 year</button>
-              <button class="option-btn">3 years</button>
-              <button class="option-btn">5 years</button>
-              <button class="option-btn">10 years</button>
-            </div>
-          </div>
-    
-          <div class="input-group">
-            <label>Select your audience</label>
-            <div class="options">
-              <button class="option-btn selected">Private</button>
-              <button class="option-btn">Public, but anonymous</button>
-            </div>
-          </div>
-    
-          <div class="input-group">
-            <label>Make sure you get your letter</label>
-            <input type="email" placeholder="✉️  Please enter an email" />
-          </div>
-    
-          <div class="input-group">
-            <label>Pick your style</label>
-            <div class="radio-group">
-              <label><input type="radio" name="plan" /> Send your first letter for free</label><br />
-              <label><input type="radio" name="plan" checked /> Subscribe to send more</label>
-            </div>
-          </div>
-    
-          <small>
-            You will receive a confirmation email – please make sure your email address is correct! By writing a letter and
-            signing up for FutureMe you agree to the
-            <a href="#">Terms of use</a>
-          </small>
-    
-          <button class="send-btn">Send to the Future</button>
+    <div class="navbar-right">
+      <a href="#"><strong>fm</strong> <span class="light">for business</span></a><span class="divider">|</span>
+      <a href="#"><span class="light">education</span></a><span class="divider1">|</span>
+      <a href="#">Blog</a>
+      <a href="#">Press & Props</a>
+      <button class="btn-outline">Sign In</button>
+      <button class="btn-fill">Sign Up</button>
+    </div>
+  </nav>
+  <div class="main-wrapper">
+    <div class="left-section">
+
+      <textarea placeholder="Dear Future Me..." id="letterArea"></textarea>
+      <button class="inspire-btn" onclick="inspireText()">💡 Inspire me!</button>
+    </div>
+
+    <div class="right-section">
+      <div class="input-group">
+        <label>Deliver in</label>
+        <div class="options">
+          <button class="option-btn selected">6 months</button>
+          <button class="option-btn">1 year</button>
+          <button class="option-btn">3 years</button>
+          <button class="option-btn">5 years</button>
+          <button class="option-btn">10 years</button>
         </div>
       </div>
 
-      <!-- footer tag -->
+      <div class="input-group">
+        <label>Select your audience</label>
+        <div class="options">
+          <button class="option-btn selected">Private</button>
+          <button class="option-btn">Public, but anonymous</button>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label>Make sure you get your letter</label>
+        <input type="email" placeholder="✉️  Please enter an email" />
+      </div>
+
+      <div class="input-group">
+        <label>Pick your style</label>
+        <div class="radio-group">
+          <label><input type="radio" name="plan" /> Send your first letter for free</label><br />
+          <label><input type="radio" name="plan" checked /> Subscribe to send more</label>
+        </div>
+      </div>
+
+      <small>
+        You will receive a confirmation email – please make sure your email address is correct! By writing a letter and
+        signing up for FutureMe you agree to the
+        <a href="#">Terms of use</a>
+      </small>
+
+      <button class="send-btn">Send to the Future</button>
+    </div>
+  </div>
+
+  <!-- footer tag -->
 
   <div class="tag1-items">
 
@@ -111,26 +103,25 @@
   <div class="footer-main">
     <div id="footer-div" class="tag2-items">
 
-      <a class="fm-navbar-logo" href="/">
+      <a class="fm-navbar-logo" href="#">
         <img
-          src="https://prod-assets.futureme.org/assets/logo/logo-reverse@1x-056e77a61325f5f09d494ef19e0f2aab3ab1a50253c361e57169e3bd923053ed.svg">
-      </a> <br>
-      <div class="fm-list1"> <br>
-        <span> Write a letter</span>
-        <span>Read Public Letters</span>
-        <span>Sign In</span>
-        <span>Sign Up</span>
-        <span>Invite a friend</span>
-      </div>
-      <div class="fm-list2">
-        <span>Home</span>
-        <span>Press & Props</span>
-        <span>FAQ</span>
-        <span>Jobs</span>
-        <span>Advertise</span>
-        <span>Support</span>
-        <span>Blog</span>
-      </div>
+          src="https://prod-assets.futureme.org/assets/logo/fm-logo_blue-7db255eb28c0ed805afb7f91e5915a2e017ada89362797900248c474194a9fe2.svg"><br>
+        <div class="fm-list1"> <br>
+          <span> Write a letter</span>
+          <span>Read Public Letters</span>
+          <span>Sign In</span>
+          <span>Sign Up</span>
+          <span>Invite a friend</span>
+        </div>
+        <div class="fm-list2">
+          <span>Home</span>
+          <span>Press & Props</span>
+          <span>FAQ</span>
+          <span>Jobs</span>
+          <span>Advertise</span>
+          <span>Support</span>
+          <span>Blog</span>
+        </div>
 
     </div>
     <div class="logos-div">
@@ -164,12 +155,10 @@
     </div>
 
     <div class="fm-list-BE">
-      <a class="fm-pro-link" href="/business">
-        <img
+      <a href="#"> <img
           src="https://prod-assets.futureme.org/assets/pro/business/FM-Business-light-3496bf2d597ec4ec6ac9fa92d45cc3035cb8a53f1e0937cbd495acb9882b3edd.svg"
           width="120px" height="40px">
-      </a><a class="fm-pro-link" href="/education">
-        <img
+      </a><a href="#"><img
           src="https://prod-assets.futureme.org/assets/pro/education/FM-Education-light-e35a6a7395f18dc3b02e731bac64c68386cf39d0e3102b2b5105fbb006802b09.svg"
           width="120px" height="40px">
       </a>
@@ -187,6 +176,7 @@
         Yup - we've been sending letters to the future for over 23 years now
       </p>
     </div>
-    </div>
+  </div>
 </body>
+
 </html>

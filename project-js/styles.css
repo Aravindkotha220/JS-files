@@ -423,7 +423,7 @@ h3>b{
 
 
 
-@media (width>=1260px){
+@media (min-width: 1024px) and (max-width:1260px){
   .mobile-app-img {
     display: none;
   }

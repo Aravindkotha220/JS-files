@@ -75,4 +75,3 @@ const modifiedNumbers = [0, ...numbers, 6];
 console.log(copyNumbers);       // Output: [1, 2, 3, 4, 5]
 console.log(modifiedNumbers);   // Output: [0, 1, 2, 3, 4, 5, 6]
 
-  

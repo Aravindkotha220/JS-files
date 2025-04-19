@@ -14,14 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
-const optionButtons = document.querySelectorAll('.option-btn');
-optionButtons.forEach(btn => {
-  btn.addEventListener('click', () => {
-    optionButtons.forEach(b => b.classList.remove('selected'));
-    btn.classList.add('selected');
-  });
-});
-
 // Add more logic as needed
 document.querySelector('.inspire-btn').addEventListener('click', () => {
   alert('Get inspired!');

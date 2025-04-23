@@ -12,12 +12,5 @@ document.addEventListener("DOMContentLoaded", () => {
       // window.location.href = "/signup"; // Uncomment to redirect
     });
   
-    // OPTIONAL: Mobile nav toggle (if you add a hamburger menu)
-    // const mobileToggle = document.querySelector(".mobile-toggle");
-    // const navSections = document.querySelectorAll(".navbar-left, .navbar-center, .navbar-right");
-  
-    // mobileToggle?.addEventListener("click", () => {
-    //   navSections.forEach(section => section.classList.toggle("open"));
-    // });
   });
   

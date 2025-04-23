@@ -12,6 +12,7 @@ export function mul(a,b) {
 export function div(a, b) {
   return a/b
 } 
+// 
  export const PI=3.45;
  export const G=23;
  export const S=72;

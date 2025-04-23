@@ -68,7 +68,7 @@
 </div>
 
 <!-- Firebase SDKs -->
-<script type="module">
+<script src="module.js" type="module">
   // Import Firebase
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
   import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-auth.js";
@@ -99,8 +99,8 @@
         const user = userCredential.user;
         msg.style.color = "green";
         msg.innerText = "Login successful! Redirecting...";
-        // Redirect or do something
-        setTimeout(() => window.location.href = "dashboard.html", 1000);
+        // Redirect or do something 
+        setTimeout(() => window.location.href = "firebase.html", 1000);
       })
       .catch((error) => {
         msg.style.color = "red";
